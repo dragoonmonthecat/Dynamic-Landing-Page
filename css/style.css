@@ -13,6 +13,9 @@ body {
     height: 100vh;
 
     font-family: 'Noto Sans JP', sans-serif;
+
+    background-image: url('../img/backgroundimg.jpg');
+    background-size: 100% auto;
 }
 
 .time {
