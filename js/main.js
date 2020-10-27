@@ -78,8 +78,8 @@ function setFocus(e) {
 
 name.addEventListener('keypress', setName);
 name.addEventListener('blur', setName);
-name.addEventListener('keypress', setFocus);
-name.addEventListener('blur', setFocus);
+focus.addEventListener('keypress', setFocus);
+focus.addEventListener('blur', setFocus);
 
 //RUN functions
 showTime();
